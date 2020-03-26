@@ -11,4 +11,7 @@
       <add-to-group group-id="WelcomeScreen.QuickStart"/>
     </action>
   </actions>
+  <extensions defaultExtensionNs="com.intellij">
+    <moduleBuilder builderClass="org.intellij.examples.simple.plugin.TestEmptyModuleBuilder" />
+  </extensions>
 </idea-plugin>
